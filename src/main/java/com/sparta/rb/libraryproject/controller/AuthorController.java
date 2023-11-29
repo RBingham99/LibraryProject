@@ -32,8 +32,8 @@ public class AuthorController {
     }
 
     //if requestParam is null return all authors else return authors with the same name
-    @GetMapping("/authors")
-    public List<AuthorDTO> getAllAuthorsByName(@RequestParam(name = "name", required = false) String name) {
-
-    }
+//    @GetMapping("/authors")
+//    public List<AuthorDTO> getAllAuthorsByName(@RequestParam(name = "name", required = false) String name) {
+//
+//    }
 }
