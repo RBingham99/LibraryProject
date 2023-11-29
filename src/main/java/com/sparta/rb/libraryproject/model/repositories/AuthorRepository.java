@@ -12,4 +12,5 @@ import java.util.Optional;
 public interface AuthorRepository extends JpaRepository<AuthorDTO, Integer> {
 
     List<AuthorDTO> findAuthorDTOByFullNameStartingWith(String name);
+    List<AuthorDTO> findAuthorsByFullName(String name);
 }
